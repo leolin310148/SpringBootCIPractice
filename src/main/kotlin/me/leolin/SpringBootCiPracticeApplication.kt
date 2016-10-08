@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController
 open class SpringBootCiPracticeApplication
 
 fun main(args: Array<String>) {
-    SpringApplication.run(SpringBootCiPracticeApplication::class.java, *args)aa
+    SpringApplication.run(SpringBootCiPracticeApplication::class.java, *args)
 }
 
 data class HelloRes(val message: String)
